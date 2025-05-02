@@ -45,17 +45,19 @@ body {
     border: none;
 
 }
-.nav1{
+
+.nav1 {
     background-color: white;
-     display: flex;
-     margin-left: 180px;
-     width: 200px;
-     height: 80px;
-   
-    border-radius: 20px 20px 0px 0px ;
-    
+    display: flex;
+    margin-left: 180px;
+    width: 200px;
+    height: 80px;
+
+    border-radius: 20px 20px 0px 0px;
+
 }
-.submit-btn1{
+
+.submit-btn1 {
     width: 90px;
     height: 45px;
     border: 2px;
@@ -75,11 +77,12 @@ body {
     align-items: center;
     font-weight: bold;
     justify-content: center;
-  
-   
+
+
 
 }
-.text-case1{
+
+.text-case1 {
     color: white;
     justify-content: center;
     align-items: center;
@@ -92,8 +95,8 @@ body {
     height: 374px;
     background-color: rgb(248, 245, 240);
     display: grid;
-   
-    
+
+
 }
 
 .box2 {
@@ -104,7 +107,7 @@ body {
     margin-left: 180px;
     display: flex;
     justify-content: space-between;
-    border-radius: 0px 0px 20px 20px ;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .boxleft {
@@ -135,7 +138,7 @@ body {
     box-shadow: 0px 0px 20px rgb(134, 122, 126);
 }
 
- 
+
 
 .smallbox {
     width: 154px;
@@ -197,23 +200,26 @@ body {
     margin: auto;
     padding: 0 20px;
 }
-.text1{
+
+.text1 {
     width: 180px;
     height: 120px;
     margin-top: 80px;
-   
-   
+
+
 }
-.text2{
+
+.text2 {
     width: 180px;
     height: 120px;
     margin-right: 100px;
-   
+
 }
-.text3{
+
+.text3 {
     width: 180px;
     height: 120px;
-   
+
 }
 
 .container3 {
@@ -246,13 +252,14 @@ body {
     padding: 0 20px;
 
 }
-.container6{
+
+.container6 {
     justify-content: space-between;
     display: block;
     max-width: 1200px;
     margin: auto;
     padding: 0 20px;
-    
+
 }
 
 .boxes {
@@ -318,10 +325,10 @@ body {
     max-width: 1200px;
     margin: auto;
     padding: 0 20px;
-  
+
 }
 
-    
+
 
 
 .block1 {
@@ -331,23 +338,24 @@ body {
     background-image: url(./unsplash_Q1p7bh3SHj8.svg);
     background-repeat: no-repeat;
     max-width: 1200px;
-   margin: auto;
-   padding: 0 20px;
-  
-   
+    margin: auto;
+    padding: 0 20px;
+
+
 }
 
 .block2 {
-   display: grid;
+    display: grid;
     justify-content: center;
     align-items: center;
     width: 1180px;
     height: 500px;
- 
-    
-   
+
+
+
 }
-.button-btn3{
+
+.button-btn3 {
     width: 200px;
     height: 45px;
     border: none;
@@ -359,8 +367,8 @@ body {
     box-shadow: 0px 0px 0px rgb(178, 165, 169);
     border: none;
     margin-left: 300px;
-   
- 
+
+
 }
 
 .block3 {
@@ -370,19 +378,21 @@ body {
     margin-right: 100px;
     margin-left: 40px;
     display: grid;
-   
+
 
 
 
 }
-.boxright2{
+
+.boxright2 {
     justify-content: end;
-     display: flex;
-     gap: 30px;
-  
-  
+    display: flex;
+    gap: 30px;
+
+
 }
-.pgreen{
+
+.pgreen {
     color: white;
     font-size: 40px;
     align-items: center;
@@ -390,7 +400,8 @@ body {
     display: flex;
 
 }
-.very-big-container{
+
+.very-big-container {
     width: 1440px;
     height: 2371px;
     background-color: rgb(232, 226, 219);
@@ -401,49 +412,56 @@ body {
     max-width: 1200px;
     margin: auto;
     padding: 0 20px;
-   
+
 }
-.very-big-container1{
-    
+
+.very-big-container1 {
+
     justify-content: center;
     align-items: center;
     margin-left: 350px;
     gap: 60px;
     font-size: 40px;
     display: grid;
-    
-   
+
+
 
 }
-.linee{
-    margin-right:200px ;
+
+.linee {
+    margin-right: 200px;
 }
-.pline{
+
+.pline {
     margin-right: 250px;
 }
-.container5{
+
+.container5 {
     display: block;
     justify-content: center;
     align-items: center;
     gap: 60px;
-  
+
 
 }
-.container6{
+
+.container6 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0px;
     margin-inline-end: 20px;
-   
+
 }
-.image1{
+
+.image1 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
 }
-.pgreen1{
+
+.pgreen1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -451,7 +469,8 @@ body {
     gap: 60px;
     margin-block: 100px;
 }
-.lastbox{
+
+.lastbox {
     font-size: 100px;
     color: rgb(30, 40, 229);
     display: flex;
@@ -465,16 +484,17 @@ body {
     box-shadow: inset;
     display: grid;
 }
-.container7{
+
+.container7 {
     display: flex;
     margin-left: 500px;
     gap: 60px;
 }
-@media only screen and (max-width:600px){
-    .body{
-        flex-direction: column;
-        
-    }
-   
-}
 
+@media only screen and (max-width:600px) {
+    .body {
+        flex-direction: column;
+
+    }
+
+}
