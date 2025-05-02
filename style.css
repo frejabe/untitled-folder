@@ -12,6 +12,8 @@ body {
 
 .box {
     color: white;
+    margin: auto;
+    padding: 0 20px;
 }
 
 
@@ -24,7 +26,9 @@ body {
     box-sizing: border-box;
     gap: 40px;
     justify-content: right;
-   
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
 
 }
 
@@ -159,6 +163,9 @@ body {
     width: 1440px;
     height: 1015px;
     background-color: rgb(217, 209, 209);
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
 
 }
 
@@ -186,6 +193,9 @@ body {
     gap: 60px;
     background-image: url(./unsplash_tQpypKA92k8.svg);
     background-repeat: no-repeat;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
 }
 .text1{
     width: 180px;
@@ -212,6 +222,9 @@ body {
     margin-left: 250px;
     display: grid;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
 }
 
 .button-btn {
@@ -228,11 +241,17 @@ body {
     width: 1440px;
     height: 770px;
     background-color: rgb(234, 234, 218);
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
 
 }
 .container6{
     justify-content: space-between;
     display: block;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
     
 }
 
@@ -296,6 +315,9 @@ body {
     height: 802px;
     padding-top: 80px;
     margin-left: 30px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
   
 }
 
@@ -308,7 +330,9 @@ body {
     background-color: rgb(248, 244, 241);
     background-image: url(./unsplash_Q1p7bh3SHj8.svg);
     background-repeat: no-repeat;
-   
+    max-width: 1200px;
+   margin: auto;
+   padding: 0 20px;
   
    
 }
@@ -374,6 +398,9 @@ body {
     padding-bottom: 40px;
     margin-bottom: 50px;
     display: grid;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
    
 }
 .very-big-container1{
@@ -443,3 +470,11 @@ body {
     margin-left: 500px;
     gap: 60px;
 }
+@media only screen and (max-width:600px){
+    .body{
+        flex-direction: column;
+        
+    }
+   
+}
+
